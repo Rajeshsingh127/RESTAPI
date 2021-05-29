@@ -65,7 +65,7 @@ Output
 ]
 ```
 ### Schedule Endpoints 
-GET request to http://127.0.0.1:8000/schedule/ endpoint will provide the all the schedule provided by current user. This endpoint is authenticated and require 
+GET request to ```http://127.0.0.1:8000/schedule/``` endpoint will provide the all the schedule provided by current user. This endpoint is authenticated and require 
 access token to access the data.
 Access token can be provide in header ```Authorization: 'JWT <token>'```
 ```
@@ -89,7 +89,7 @@ Output
     }
 ]
 ```
-POST request to http://127.0.0.1:8000/schedule/ endpoint will create a schedule for current user. This endpoint is authenticated and require 
+POST request to ```http://127.0.0.1:8000/schedule/``` endpoint will create a schedule for current user. This endpoint is authenticated and require 
 access token to access the data.
 Access token can be provide in header ```Authorization: 'JWT <token>'```
 
